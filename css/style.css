@@ -1,6 +1,6 @@
 :root {
     --font-main: "helvetica";
-    --font-sub: "Open Sans";
+    --font-sub: "lato";
     --clr-primary-yellow: #ffae00;
     --clr-primary-blue: #00B4EE;
     --clr-secondary-pink: #f8076b;
@@ -86,7 +86,7 @@ ul {
     font-size: 26px;
     color: #fff;
     font-family: var(--font-main);
-    font-weight: 800;
+    font-weight: 500;
 }
 
     .logo span {
@@ -118,9 +118,9 @@ ul {
                 display: block;
                 padding: 5px 5px;
                 color: var(--clr-white);
-                font-size: 26px;
-                font-weight: 600;
-                font-variant: small-caps;
+                font-size: 24px;
+                font-weight: 300;
+                text-transform: uppercase;
                 text-decoration: none;
             }
 
@@ -160,7 +160,7 @@ label[for=hamburger-menu] {
     display: block;
     position: absolute;
     right: 0px;
-    height: 375px;
+    height: 250px;
     width: 100%;
     list-style-type: none;
     margin: 80px 0px;
@@ -243,7 +243,7 @@ label[for=hamburger-menu] {
 .scroll-down {
     display: block;
     position: absolute;
-    bottom: 30px;
+    bottom: 50px;
     left: 50%;
     z-index: 2;
 }
@@ -435,7 +435,7 @@ hr {
 }
 
 .welcome {
-    font-size: 36px;
+    font-size: 32px;
     font-family: "Helvetica";
     letter-spacing: 2.5px;
     font-weight: 800;
