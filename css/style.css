@@ -833,8 +833,8 @@ input {
     }
 
     .hero-cta {
-        top: 40%;
-        left: 50px;
+        top: 50%;
+        left: 50%;
     }
 
     .hero-img img {
